@@ -30,7 +30,7 @@ public class DoublyListTester{
         DoublyList h2 = new DoublyList(a2); // uses the first constructor: LinkedList(Object [] a)
         h2.forwardprint(); // This should print: 10,20,30,40.  
         
-        // inserts Node containing the given element at the given index. Check validity of index.
+        // inserts Node con.taining the given element at the given index. Check validity of index.
         h2.insert(85,0);
         h2.forwardprint(); // This should print: 85,10,20,30,40. 
         h2.backwardprint(); // This should print: 40,30,20,10,85.
