@@ -1,10 +1,10 @@
 package Queue;
 
-public class Node{
+public class Node {
     Object val;
     Node next;
-    
-    public Node(Object v, Node n){
+
+    public Node(Object v, Node n) {
         val = v;
         next = n;
     }

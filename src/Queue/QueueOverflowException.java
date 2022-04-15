@@ -1,5 +1,5 @@
 package Queue;
 
-public class QueueOverflowException extends Exception{
+public class QueueOverflowException extends Exception {
 
 }
